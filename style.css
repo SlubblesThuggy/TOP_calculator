@@ -1,0 +1,42 @@
+#calculator {
+    max-width: 20em;
+}
+
+#calculator .display {
+    text-align: center;
+    padding: 1em;
+}
+
+#calculator .button-container {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1em;
+}
+
+#calculator .numpad {
+    display: flex;
+    flex-direction: column;
+
+    flex: 3;
+}
+
+#calculator .numpad div {
+    display: flex;
+    flex-direction: row;
+}
+
+#calculator .numpad button {
+    flex: 1;
+}
+
+#calculator .special-button-container {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+#calculator .special-button-container * {
+    flex: 1;
+}
